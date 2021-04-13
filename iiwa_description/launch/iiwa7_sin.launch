@@ -1,0 +1,6 @@
+<launch>
+    <group ns="iiwa">
+      <node pkg="iiwa_description" name="iiwa7_marker" type="markerpub_sin.py" />
+      <node pkg="iiwa_description" name="iiwa7_sim" type="moveit_sin.py" />
+    </group>
+</launch>
