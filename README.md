@@ -12,11 +12,11 @@
 ### Rviz+MoveIt时使用如下命令：
 
 ```sh
-1 roslaunch iiwa_moveit demo.launch 
+1: roslaunch iiwa_moveit demo.launch 
 ```
 ```sh
-2 rosrun iiwa_description markerpub_sin.py  显示轨迹
+2: rosrun iiwa_description markerpub_sin.py  # 显示轨迹
 ```
 ```sh
-3 rosrun iiwa_description moveit_sin.py  画图
+3: rosrun iiwa_description moveit_sin.py  # 画图
 ```
